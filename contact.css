@@ -1,0 +1,125 @@
+:root {
+  --red-color: #ff6f61;
+  --yellow-color: #edb33c;
+  --green-color: #039d7e;
+  --gray-color: #d9d9d9;
+  --bg-color: #f9f9f9;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 10px 10px 5px 10px;
+
+  transition: all 100ms;
+}
+
+nav a {
+  color: black;
+  opacity: 75%;
+  text-decoration: none;
+}
+
+nav li.active a {
+  color: var(--green-color);
+}
+
+nav li:hover {
+  border-bottom: 2px solid var(--green-color);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+h3.contact-me {
+  font-family: "Prata", serif;
+  font-size: 30px;
+  background-color: var(--green-color);
+  border-radius: 30px;
+  display: inline;
+  line-height: 3;
+  margin-bottom: 15px;
+  padding: 8px 30px;
+}
+
+p {
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+a.email {
+  color: var(--green-color);
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+  top: 5px;
+}
+
+a.email:hover {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.fa-brands {
+  color: var(--green-color);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.span-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+span {
+  background-color: var(--gray-color);
+  border-radius: 30px;
+  display: inline;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin: 15px 10px 5px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin-top: 50px;
+  }
+  .secondary-col {
+    margin-top: 40px;
+  }
+}
