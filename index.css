@@ -44,7 +44,7 @@ nav li:hover {
   border-bottom: 2px solid var(--gray-color);
 }
 
-main.container-hero {
+.container {
   margin: 0 auto;
   margin-top: 100px;
   align-items: center;
@@ -143,27 +143,20 @@ span a {
   color: black;
 }
 
-span.list-element.about main img {
+img {
   width: 500px;
 }
 
-.hero-img {
-  width: 350px;
-  position: relative;
-  left: 25px;
-}
-
-@media (max-width: 1388px) {
-  .row {
-    justify-content: center;
+@media (max-width: 576px) {
+  .container {
+    margin: 50px 0px 75px;
   }
 
-  .col-md-6 {
-    padding: 0px;
+  .row {
+    display: block;
   }
 
   .hero-text {
-    text-align: center;
     padding-left: 0px;
   }
 
@@ -184,12 +177,32 @@ span.list-element.about main img {
     padding: 8px 15px;
   }
 
-  span.blank-space {
-    padding: 0px 3px;
+  span.span-list {
+    margin-top: 15px;
+    display: block;
+    margin: auto;
   }
 
-  .project-container {
-    margin-top: 30px;
+  span.list-element {
+    padding: 8px 15px;
+    margin: 20px 5px 0px;
+  }
+
+  img {
+    width: 375px;
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .hero-text {
+    padding-left: 0px;
+  }
+
+  h1 {
+    font-size: 40px;
   }
 
   span.span-list {
@@ -199,11 +212,31 @@ span.list-element.about main img {
   }
 
   span.list-element {
-    padding: 8px 20px;
+    padding: 8px 15px;
+    margin: 15px 5px 0px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1215px) {
+  .hero-text {
+    padding-left: 120px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+  span.span-list {
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+  }
+
+  span.list-element {
+    padding: 8px 15px;
     margin: 15px 5px 0px;
   }
 
-  img.hero-img {
-    padding-top: 50px;
+  img {
+    width: 450px;
   }
 }
