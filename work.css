@@ -115,7 +115,7 @@ img.square-img {
 }
 
 img.round-corners {
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 img.square-img:hover {
@@ -136,6 +136,15 @@ hr {
     margin-top: 30px;
   }
 
+  img.round-corners {
+    border-radius: 15px;
+  }
+
+  p {
+    padding-bottom: 0px;
+    margin-top: 25px;
+  }
+
   img.square-img {
     width: 320px;
     display: block;
@@ -143,3 +152,4 @@ hr {
     padding-top: 20px;
   }
 }
+
