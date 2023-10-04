@@ -143,10 +143,6 @@ span a {
   color: black;
 }
 
-img {
-  width: 300px;
-}
-
 @media (max-width: 576px) {
   .container {
     margin: 50px 0px 75px;
