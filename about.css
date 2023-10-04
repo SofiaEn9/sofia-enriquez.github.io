@@ -80,10 +80,6 @@ h3.technologies-title {
   margin-top: 40px;
 }
 
-p {
-  font-family: "Inter", sans-serif;
-}
-
 .span-list {
   display: flex;
   flex-wrap: wrap;
