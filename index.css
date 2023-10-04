@@ -144,7 +144,7 @@ span a {
 }
 
 img {
-  width: 500px;
+  width: 300px;
 }
 
 @media (max-width: 576px) {
@@ -189,7 +189,6 @@ img {
   }
 
   img {
-    width: 375px;
     padding-top: 50px;
     display: block;
     margin: auto;
