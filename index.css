@@ -185,6 +185,7 @@ span a {
   }
 
   img {
+    width: 350px;
     padding-top: 50px;
     display: block;
     margin: auto;
