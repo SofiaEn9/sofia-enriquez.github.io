@@ -21,6 +21,7 @@ nav {
 nav ul {
   padding: 0;
   margin-bottom: 0;
+  margin-top: 16px;
 }
 
 nav li {
@@ -115,7 +116,7 @@ img.square-img {
 }
 
 img.round-corners {
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 img.square-img:hover {
@@ -127,13 +128,22 @@ hr {
   align-self: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1000px) {
   .container {
     margin-top: 50px;
   }
 
   .project-container {
     margin-top: 30px;
+  }
+
+  img.round-corners {
+    border-radius: 15px;
+  }
+
+  p {
+    padding-bottom: 0px;
+    margin-top: 25px;
   }
 
   img.square-img {

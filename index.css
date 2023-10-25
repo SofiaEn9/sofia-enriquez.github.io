@@ -9,6 +9,7 @@
 body {
   background-color: var(--bg-color);
   font-family: "Inter", sans-serif;
+  margin: 0px;
 }
 
 nav {
@@ -44,7 +45,7 @@ nav li:hover {
   border-bottom: 2px solid var(--gray-color);
 }
 
-main.container-hero {
+.container {
   margin: 0 auto;
   margin-top: 100px;
   align-items: center;
@@ -143,27 +144,22 @@ span a {
   color: black;
 }
 
-span.list-element.about main img {
-  width: 500px;
-}
-
-.hero-img {
+img {
   width: 350px;
   position: relative;
   left: 25px;
 }
 
-@media (max-width: 1388px) {
-  .row {
-    justify-content: center;
+@media (max-width: 1056px) {
+  .container {
+    margin: 50px 0px 75px;
   }
 
-  .col-md-6 {
-    padding: 0px;
+  .row {
+    display: block;
   }
 
   .hero-text {
-    text-align: center;
     padding-left: 0px;
   }
 
@@ -184,14 +180,6 @@ span.list-element.about main img {
     padding: 8px 15px;
   }
 
-  span.blank-space {
-    padding: 0px 3px;
-  }
-
-  .project-container {
-    margin-top: 30px;
-  }
-
   span.span-list {
     margin-top: 15px;
     display: block;
@@ -199,11 +187,14 @@ span.list-element.about main img {
   }
 
   span.list-element {
-    padding: 8px 20px;
-    margin: 15px 5px 0px;
+    padding: 8px 15px;
+    margin: 20px 5px 0px;
   }
 
   img.hero-img {
     padding-top: 50px;
+    position: static;
+    display: block;
+    margin: 0 auto;
   }
 }
