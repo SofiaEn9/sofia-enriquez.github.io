@@ -154,9 +154,15 @@ span.list-element.about main img {
   left: 25px;
 }
 
-@media (max-width: 1388px) {
+@media (max-width: 1056px) {
   .row {
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-hero {
+    margin-top: 50px;
   }
 
   .col-md-6 {
@@ -204,6 +210,8 @@ span.list-element.about main img {
   }
 
   img.hero-img {
+    width: 300px;
     padding-top: 50px;
+    left: 0px;
   }
 }
