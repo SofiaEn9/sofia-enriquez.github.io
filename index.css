@@ -154,14 +154,14 @@ span.list-element.about main img {
   left: 25px;
 }
 
-@media (max-width: 1056px) {
+@media (max-width: 1052px) {
   .row {
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 
-  .container-hero {
+  .container {
     margin-top: 50px;
   }
 

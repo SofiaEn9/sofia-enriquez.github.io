@@ -50,6 +50,11 @@ nav li:hover {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  align-items: center;
+}
+
 .about-me-section {
   padding-right: 45px;
 }
@@ -68,13 +73,14 @@ h3.about-me {
   padding: 8px 30px;
 }
 
-span.circle-detail {
+h3 span.circle-detail {
   background-color: var(--yellow-color);
   font-size: 12px;
   padding: 0px 7px;
   margin: 5px 10px;
   position: relative;
   top: -8px;
+  border-radius: 30px;
 }
 
 h3.technologies-title {
@@ -86,11 +92,11 @@ h3.technologies-title {
   flex-wrap: wrap;
 }
 
-span {
+span.list-element {
   background-color: var(--gray-color);
   border-radius: 30px;
   display: inline;
-  padding: 8px 20px;
+  padding: 8px 15px;
   margin: 5px;
 }
 
